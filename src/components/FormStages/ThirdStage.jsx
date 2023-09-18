@@ -134,14 +134,14 @@ const ThirdStage = ({
               type="checkbox"
               checked={checkedRules}
             />
-            <label className="text-[#D9D9D9] opacity-60 text-lg">
+            <label className="text-[#D9D9D9] opacity-60 text-base flex gap-x-5">
               Kabul ediyorum
               <span className="underline text-white">Kurallar & Koşullar</span>
             </label>
           </div>
         </div>
       </div>
-      <div className="flex flex-col items-center gap-y-2">
+      <div className="flex flex-col items-center gap-y-2 relative top-4">
         <button
           onClick={() => handleSubmit()}
           disabled={!checkedRules}

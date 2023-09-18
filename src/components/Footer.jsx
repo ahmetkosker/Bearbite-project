@@ -9,19 +9,19 @@ const Footer = () => {
             className="w-16 relative bottom-2.5"
           />
         </div>
-        <div className="hover:text-gray-500 transition-colors cursor-pointer">
+        <div className="hover:text-gray-500 transition-colors cursor-pointer font-normal">
           CAREERS
         </div>
-        <div className="hover:text-gray-500 transition-colors cursor-pointer">
+        <div className="hover:text-gray-500 transition-colors cursor-pointer font-normal">
           ABOUT
         </div>
-        <div className="hover:text-gray-500 transition-colors cursor-pointer">
+        <div className="hover:text-gray-500 transition-colors cursor-pointer font-normal">
           SUPPORT
         </div>
-        <div className="hover:text-gray-500 transition-colors cursor-pointer">
+        <div className="hover:text-gray-500 transition-colors cursor-pointer font-normal">
           CONTACT US
         </div>
-        <div className="hover:text-gray-500 transition-colors cursor-pointer">
+        <div className="hover:text-gray-500 transition-colors cursor-pointer font-normal">
           SUBSCRIBE
         </div>
       </div>
@@ -29,7 +29,9 @@ const Footer = () => {
         <div className="opacity-40 text-[#D9D9D9]">
           All Rights Reserved @CompanyName
         </div>
-        <div>PRIVACY POLICY | TERMS OF SERVICES | CODE OF CONDUCT</div>
+        <div className="font-normal">
+          PRIVACY POLICY | TERMS OF SERVICES | CODE OF CONDUCT
+        </div>
       </div>
     </div>
   );
